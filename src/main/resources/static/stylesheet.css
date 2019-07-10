@@ -1,0 +1,68 @@
+body {
+    background: url(https://res.cloudinary.com/jleplerwt/image/upload/v1562711029/Cocktail%20website/DR-Interiors-71_dlykmk.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.header-title{
+    display: inline-grid;
+    font-size: large;
+    font-family: 'Russo One', sans-serif;
+}
+
+#header-logo{
+    height: 100px;
+    width: 100px;
+    position: relative;
+    display: inline-block;
+}
+
+.btnGroupDrop1 {
+    position: relative;
+    display: inline-block;
+}
+
+.btn-group {
+    height: auto;
+}
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    z-index: 1;
+    max-width: inherit;
+}
+
+.dropdown-menu a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    display: flex; /* or inline-flex */
+}
+
+
+#visualOne {
+    order: 1;
+}
+
+.flex-item {
+    order: 2;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-menu a:hover {background-color: #ddd;}
+
+/* Show the dropdown menu on hover */
+.btn-group:hover .dropdown-menu {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.btnGroupDrop1:hover .btnGroupDrop1 {background-color: #3e8e41;}
